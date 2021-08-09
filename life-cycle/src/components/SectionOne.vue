@@ -38,8 +38,8 @@
       <div>
         <img src="../assets/laptop-bg.png" class="laptop-bg" alt="photo">
         <img src="../assets/laptop.png" alt="photo">
-        <img src="../assets/header-laptop.png" class="laptop-header" alt="photo">
         <img src="../assets/footer-laptop.png" class="laptop-footer" alt="photo">
+        <img src="../assets/header-laptop.png" class="laptop-header" alt="photo">
       </div>
       <div class="subtract">
         <!-- <p>Подкатегория 2</p> -->
@@ -79,16 +79,16 @@ export default {
 .main{
   position: relative;
   background-image: url('../assets/header-background.png');
-  background-size:  1300px 750px ;
+  background-size:  1300px 550px ;
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 690px;
   margin: 0 auto;
 }
 .zametka{
   position: absolute;
-  top: 29%;
-  left: 19%;
-  width: 100px;
+  top: 26%;
+  left: 20%;
+  width: 80px;
 }
 .ramka {
   position: absolute;
@@ -123,9 +123,9 @@ export default {
 .ramka1 {
   position: absolute;
   display: block;
-  width: 260px;
+  width: 235px;
   left: 18%;
-  top: 40%
+  top: 42%
 }
 .ramka1 div{
   display: block;
@@ -137,12 +137,11 @@ export default {
   font-size: 11px;
   color: rgba(18, 18, 18, 0.8);
   font-weight: 600;
-  line-height: 15px;
 }
 .ramka1 img{
-  width: 230px;
+  width: 200px;
   margin-left: -25px;
-  margin-top: -10px;
+  margin-top: -58px;
 }
 .ramka1 p{
   margin: 0;
@@ -196,27 +195,29 @@ span{
   top: 24%;
   width: 210px;
 }
+.ramka3{}
+
 .ramka3 img {
   position: absolute;
   display: block;
-  width: 560px;
-  left: 30%;
-  bottom: 7%
+  width: 377px;
+  left: 34%;
+  bottom: 23%;
 }
 
 .ramka3 .laptop-bg{
-  width: 427px;
-  bottom: 22%;
-  left: 35%;
+  width: 290px;
+  bottom: 34%;
+  left: 37.5%;
 }
 
 .ramka3 p{
   position: absolute;
-  left: 37%;
-  bottom: 52%;
+  left: 38.5%;
+  bottom: 58%;
   margin: 0;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 10px;
+  font-size: 7px;
 }
 .subtract {
   display: flex;
@@ -224,27 +225,27 @@ span{
   align-items: center;
 }
 .subtract img{
-  width: 210px;
+  width: 130px;
   position: absolute;
-  bottom: 34%;
-  left: 37%;
+  bottom: 44.95%;
+  left: 39.1%;
 }
 
 .subtract .laptop-text{
   position: absolute;
-  bottom: 38%;
-  left: 47.2%;
-  width: 200px;
-  margin-left: 85px;
-  font-size: 13px; 
+  bottom: 47%;
+  left: 43.2%;
+  width: 130px;
+  margin-left: 83px;
+  font-size: 10px; 
   color: white;
-  font-weight: 600;
-  line-height: 16px;
+  font-weight: 700;
+  line-height: 12px;
 }
 .ramka3 .laptop-header{
-  width: 417.05px;
-  left: 35.7%;
-  bottom: 54.5%;
+  width: 280.15px;
+  left: 37.8%;
+  bottom: 60.3%;
 }
 
 .laptop-text span{
@@ -253,17 +254,18 @@ span{
 }
 
 .ramka3 .laptop-footer{
-  width: 375.95px;
-  left: 37.3%;
-  bottom: 22.5%;
+  position: fixed;
+  width: 247.95px;
+  left: 39.5%;
+  bottom: 32%;
 }
 
 .ramka4 {
   position: absolute;
   display: block;
   width: 260px;
-  right: 7%;
-  bottom: 25%
+  right: 15%;
+  bottom: 30%
 }
 .ramka4 div{
   display: block;
@@ -278,22 +280,22 @@ span{
   line-height: 15px;
 }
 .ramka4 img{
-  width: 230px;
+  width: 200px;
   margin-left: -25px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 .ramka4 p{
   margin: 0;
   color: rgba(18, 18, 18, 0.7);
   font-size: 12px;
-  padding-right: 50px ;
+  padding-right: 60px ;
 }
 
 .ramka5 img{
   position: absolute;
-  width: 100px;
-  right: 0%;
-  bottom: 38%;
+  width: 80px;
+  right: 1%;
+  bottom: 45%;
 }
 span{
   color: rgba(99, 97, 97, 0.8);

@@ -40,11 +40,10 @@
         <img src="../assets/laptop.png" alt="photo">
         <img src="../assets/footer-laptop.png" class="laptop-footer" alt="photo">
         <img src="../assets/header-laptop.png" class="laptop-header" alt="photo">
+      <p class="text">Подкатегория 2</p>
       </div>
       <div class="subtract">
-        <!-- <p>Подкатегория 2</p> -->
         <img src="../assets/Subtract.png" alt="photo">
-        <p>Подкатегория 2</p>
         <p class="laptop-text">Шерзод Асадов анонсировал события новой рабочей недели Президента <br><span>08.05.2021</span></p>
       </div>
 
@@ -79,15 +78,18 @@ export default {
 .main{
   position: relative;
   background-image: url('../assets/header-background.png');
-  background-size:  1300px 550px ;
+  background-attachment: fixed;
+  /* background-position: center; */
   background-repeat: no-repeat;
-  min-height: 690px;
+  /* background-size: cover; */
+  background-size:  1290px 670px ;
+  min-height: 670px;
   margin: 0 auto;
 }
 .zametka{
   position: absolute;
-  top: 26%;
-  left: 20%;
+  top: 31%;
+  left: 19%;
   width: 80px;
 }
 .ramka {
@@ -95,7 +97,7 @@ export default {
   display: block;
   width: 260px;
   left: 33%;
-  top: 11%
+  top: 15%
 }
 .ramka div{
   display: flex;
@@ -125,7 +127,7 @@ export default {
   display: block;
   width: 235px;
   left: 18%;
-  top: 42%
+  top: 49%
 }
 .ramka1 div{
   display: block;
@@ -137,6 +139,7 @@ export default {
   font-size: 11px;
   color: rgba(18, 18, 18, 0.8);
   font-weight: 600;
+  width: 200px;
 }
 .ramka1 img{
   width: 200px;
@@ -144,10 +147,9 @@ export default {
   margin-top: -58px;
 }
 .ramka1 p{
-  margin: 0;
   color: rgba(18, 18, 18, 0.7);
   font-size: 12px;
-  padding-right: 50px ;
+  padding-right: 50px;
 }
 span{
   color: rgba(18, 18, 18, 0.8);
@@ -166,10 +168,10 @@ span{
 }
 
 .ramka2 div p{
-  margin-top: -20px;
+  margin-top: -13px;
   padding: 0;
   font-size: 10.5px;
-  color: #121212;
+  color: rgba(18, 18, 18, 0.8);
   font-weight: 600;
   line-height: 16px;
   transform: rotate(6deg);
@@ -195,57 +197,61 @@ span{
   top: 24%;
   width: 210px;
 }
-.ramka3{}
+.ramka3{
+  position: absolute;
+  left: 30%;
+  bottom: 6%;
+}
 
 .ramka3 img {
   position: absolute;
-  display: block;
-  width: 377px;
-  left: 34%;
-  bottom: 23%;
+  width: 430px;
+  bottom: 0;
 }
 
 .ramka3 .laptop-bg{
-  width: 290px;
-  bottom: 34%;
-  left: 37.5%;
+  margin-bottom: 95px;
+  margin-left: 55.5px;
+  width: 322px;
 }
 
-.ramka3 p{
+.ramka3 .text{
   position: absolute;
-  left: 38.5%;
-  bottom: 58%;
-  margin: 0;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 7px;
+  bottom: 75%;
+  left: 20%;
+  color: rgba(18, 18, 18, 0.7);
+  font-size: 9px;
+  width: 100px;
 }
 .subtract {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin-bottom: 350px;
+  margin-left: 300px;
 }
 .subtract img{
-  width: 130px;
+  width: 169px;
   position: absolute;
   bottom: 44.95%;
-  left: 39.1%;
+  left: 20.1%;
 }
 
 .subtract .laptop-text{
   position: absolute;
-  bottom: 47%;
-  left: 43.2%;
+  bottom: 50%;
+  left: 50.2%;
   width: 130px;
   margin-left: 83px;
-  font-size: 10px; 
+  font-size: 9px; 
   color: white;
   font-weight: 700;
-  line-height: 12px;
+  line-height: 14px;
 }
 .ramka3 .laptop-header{
-  width: 280.15px;
-  left: 37.8%;
-  bottom: 60.3%;
+  width: 318.55px;
+  margin-left: 56.6px;
+  margin-bottom: 293px;
 }
 
 .laptop-text span{
@@ -255,9 +261,9 @@ span{
 
 .ramka3 .laptop-footer{
   position: fixed;
-  width: 247.95px;
-  left: 39.5%;
-  bottom: 32%;
+  width: 280.95px;
+  margin-bottom: 105px;
+  margin-left: 73px;
 }
 
 .ramka4 {
@@ -265,7 +271,7 @@ span{
   display: block;
   width: 260px;
   right: 15%;
-  bottom: 30%
+  bottom: 20%
 }
 .ramka4 div{
   display: block;
@@ -278,6 +284,7 @@ span{
   color: rgba(18, 18, 18, 0.8);
   font-weight: 600;
   line-height: 15px;
+  width: 200px;
 }
 .ramka4 img{
   width: 200px;
@@ -295,7 +302,7 @@ span{
   position: absolute;
   width: 80px;
   right: 1%;
-  bottom: 45%;
+  bottom: 32%;
 }
 span{
   color: rgba(99, 97, 97, 0.8);
